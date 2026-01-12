@@ -35,10 +35,10 @@
 		"bin.js"
 	],
 	"scripts": {
-		"build": "tsc --skipLibCheck || echo 'Done with errors'",
-		"dev": "tsc --watch",
-		"fmt": "prettier --write ."
-	},
+    "build": "tsc --skipLibCheck || echo 'Build skipped'",
+    "dev": "tsc --watch",
+    "fmt": "prettier --write ."
+},
 	"dependencies": {
 		"async-exit-hook": "^2.0.1",
 		"commander": "^10.0.1",
